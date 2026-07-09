@@ -9,11 +9,11 @@ from langchain_core.prompts import ChatPromptTemplate
 
 st.set_page_config(
     page_title="RAG Chatbot",
-    page_icon="🤖",
+    page_icon="🎰",
     layout="wide"
 )
 
-st.title("🤖 RAG Chatbot for Technical Documentation")
+st.title("🎰 RAG Chatbot for Technical Documentation")
 
 # Read API key
 if "OPENAI_API_KEY" in st.secrets:
