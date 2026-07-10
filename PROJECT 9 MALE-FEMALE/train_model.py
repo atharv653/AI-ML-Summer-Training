@@ -23,7 +23,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/AnshikaMishra704/PROJECT-4/blob/main/train.model.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/atharv653/PROJECT-9/blob/main/train.model.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -60,7 +60,7 @@
         "images = []\n",
         "labels = []\n",
         "\n",
-        "classes = [\"Cat\", \"Dog\"]\n",
+        "classes = [\"Male\", \"Female\"]\n",
         "\n",
         "IMG_SIZE = 64\n",
         "\n",
@@ -95,7 +95,7 @@
         "\n",
         "model.fit(X, y)\n",
         "\n",
-        "joblib.dump(model, \"cat_dog_model.pkl\")\n",
+        "joblib.dump(model, \"male_female_model.pkl\")\n",
         "\n",
         "print(\"Model Saved Successfully!\")"
       ]
